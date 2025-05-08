@@ -1,0 +1,24 @@
+.lazy-image-container {
+  min-height: 300px;
+  margin: 20px 0;
+  background: #fceff9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+  transition: background 0.3s ease;
+}
+
+.lazy-image {
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid #ff69b4;
+  object-fit: cover;
+}
+
+.loading-text {
+  color: #ff69b4;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+}
